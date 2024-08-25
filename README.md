@@ -14,3 +14,6 @@
 - Our Github Actions bot will reply to you with the application form link.
 - Fill in the form and submit.
 - Wait for our invite if selected.
+
+### ❓ Any questions?
+Open an issue 👉 [here](https://github.com/golclinics/DSA-Clinics24/issues/new)
