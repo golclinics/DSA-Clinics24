@@ -2,6 +2,8 @@
 
 ### DSA Clinics Entry Challenge
 
+> ℹ The program assumes **you already know how to write code** and **use Git**. The program is not meant to teach you how to write code but rather up-skill you on your data structures and algorithms fundamentals.
+
 ✅ How to Submit
 
 - Go to issues tab , select the challenge you want to solve
