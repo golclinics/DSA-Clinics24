@@ -1,4 +1,4 @@
-#challange 2 
+#challenge 2 
 
 
 def fizz_buzz():
