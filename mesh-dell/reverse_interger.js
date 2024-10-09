@@ -11,3 +11,12 @@ function reverseInteger(num) {
 
   return isNegative ? -reversedNum : reversedNum;
 }
+
+function testReverseInterger() {
+  console.log(reverseInteger(500) == 5 ? "Test Passed" : "Test Failed");
+  console.log(reverseInteger(-56) == -65 ? "Test Passed" : "Test Failed");
+  console.log(reverseInteger(-90) == -9 ? "Test Passed" : "Test Failed");
+  console.log(reverseInteger(91) == 19 ? "Test Passed" : "Test Failed");
+}
+
+testReverseInterger();
