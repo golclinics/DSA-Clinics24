@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Clinics24.iml" filepath="$PROJECT_DIR$/.idea/DSA-Clinics24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/josphat.iml" filepath="$PROJECT_DIR$/josphat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/josphat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/josphat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/josphat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/josphat.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.test.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" />
+    </modules>
+  </component>
+</project>
