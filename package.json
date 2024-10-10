@@ -1,0 +1,16 @@
+{
+  "name": "dsa-clinics24",
+  "version": "1.0.0",
+  "description": "> ℹ The program assumes **you already know how to write code** and **use Git**. The program is not meant to teach you how to write code but rather up-skill you on your data structures and algorithms as you prepare for Technical Interviews.",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
