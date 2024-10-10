@@ -1,15 +1,22 @@
-const reversed = (num) => {
-  let reversedNum = 0;
-
-  while (num > 0) {
-    const lastDigit = num % 10;
-    reversedNum = reversedNum * 10 + lastDigit;
-    num = Math.floor(num / 10);
+function reverseInteger(num) {
+    let reversedNum = 0;
+    let isNegative = num < 0;
+  
+    // Convert negative numbers to positive for the reversal process
+    num = Math.abs(num);
+  
+    // Reverse the digits
+    while (num > 0) {
+      const lastDigit = num % 10;
+      reversedNum = reversedNum * 10 + lastDigit;
+      num = Math.floor(num / 10);
+    }
+  
+    // Restore the negative sign if the input number was negative
+    return isNegative ? -reversedNum : reversedNum;
   }
-
-  return reversedNum;
-};
-
-console.log(reversed(0));
-console.log(reversed(500));
-console.log(reversed(123456));
+  
+  // Example usage:
+  const input = parseInt(-1658, 10);
+  console.log(input)
+  console.log(`Reversed number: ${reverseInteger(input)}`);
