@@ -1,4 +1,4 @@
-```
+''`
 Power of Two
 Write a program that takes an integer as input and returns true if the input is a power of two.
 
@@ -10,9 +10,9 @@ Examples:
 ```;
 
 const powerOfTwo = (num) => {
-  if (num === 1) return true;
-  if (num % 2 !== 0) return false;
-  return powerOfTwo(num / 2);
+	if (num === 1) return true;
+	if (num % 2 !== 0) return false;
+	return powerOfTwo(num / 2);
 };
 
 console.log(powerOfTwo(8)); // true
