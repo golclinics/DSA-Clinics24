@@ -25,6 +25,7 @@ def reverseInteger(num):
 
     return sign * reversed_num # returning back the sign eg (-1 * 345)
 
+# Test cases
 print(reverseInteger(-234)) # -432
 print(reverseInteger(74)) # 47
 print(reverseInteger(200)) # 2
