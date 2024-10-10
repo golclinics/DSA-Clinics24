@@ -3,9 +3,12 @@
  *
  * @n: integer to test
  *
- * Return: 0 False, non-ze ro True
+ * Return: 0 False, 1 True
  */
 int power_of_two(int n)
 {
-    return (n == 0) ? 0 : (n & (n - 1)) == 0;
+	if (n == 0)
+		return (0);
+
+	return ((n & (n - 1)) == 0);
 }
