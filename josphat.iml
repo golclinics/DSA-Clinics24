@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/josphat/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/josphat/build" />
     </content>
-    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
