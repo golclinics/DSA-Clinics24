@@ -4,10 +4,10 @@ fun main(args: Array<String>) {
             println("FizzBuzz")
         }
         else if(i%3 == 0){
-            println("Buzz")
+            println("Fizz")
         }
         else if(i%5 == 0){
-            println("Fizz")
+            println("Buzz")
         }
     }
 }
