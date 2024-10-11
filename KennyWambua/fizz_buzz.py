@@ -1,5 +1,9 @@
-# A python program that prints the numbers from 1 to 100. For multiples of 3, print Fizz;
-# For multiples of 5, print Buzz; and for numbers that are multiples of 3 and 5 , print FizzBuzz.
+"""
+
+    A python program that prints the numbers from 1 to 100. For multiples of 3, print Fizz;
+    For multiples of 5, print Buzz; and for numbers that are multiples of 3 and 5 , print FizzBuzz.
+
+"""
 
 def fizz_buzz():
     for num in range(1, 101):
