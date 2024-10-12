@@ -8,3 +8,6 @@ def isPowerOfTwo(n):
 
 
 print(isPowerOfTwo(6))
+print(isPowerOfTwo(8))
+print(isPowerOfTwo(112))
+print(isPowerOfTwo(16))
