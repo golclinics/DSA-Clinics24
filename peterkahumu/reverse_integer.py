@@ -12,5 +12,15 @@ def reverseInteger(number):
         return reversedNumber
     
 
-integer = int(input("Please enter a number:  "))
+try:
+    integer = float(input("Please enter a number:  "))
+
+    if integer == 0 or int(integer) != integer:
+        raise ValueError("The number must not be equal to zero or a decimal")
+    else:
+        integer = int(integer)
+except Exception as e:
+    raise ValueError("The number should be an integer or greater than zero")
+
+
 print(reverseInteger(integer))
