@@ -11,12 +11,16 @@
 function reverse_integer(integer){
     if(!Number.isInteger(integer)) throw new Error('Value must be an integer');
     
-    const check_if_int_negative = integer < 0;
+    let reverse_int = null;
 
-    let result = Math.abs(integer).toString().split('').reverse().join('')
+    for(let i = Math.abs(integer); i !==0 ; i = Math.floor(i / 10)){
+        let digit = i % 10;
+        reverse_int = reverse_int * 10 + digit;
+    }
 
-    return check_if_int_negative ? -result : result;
+    return integer < 0 ? -reverse_int : reverse_int;
 }
 
-console.log(reverse_integer(-9010));
-console.log(reverse_integer(-9));
+console.log(reverse_integer(-90000));
+console.log(reverse_integer(90000));
+
