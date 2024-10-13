@@ -1,6 +1,8 @@
 def reverseInteger(number):
-    if number == 0 or int(number) != number:
+    if number == 0 or float(number) != number:
         raise ValueError("The number must not be equal to zero or a decimal")
+    else:
+        number = int(number)
     
     numberString = list(str(abs(number))) # handle negative numbers and remove the negative sign
     reversedNumber = reversed(numberString)
