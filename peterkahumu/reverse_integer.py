@@ -20,7 +20,7 @@ try:
     else:
         integer = int(integer)
 except Exception as e:
-    raise ValueError("The number should be an integer or greater than zero")
+    raise ValueError("The number should be an integer or greater than zero") from e
 
 
 print(reverseInteger(integer))
