@@ -4,7 +4,7 @@ const rl = createInterface({
     input: process.stdin,
     output: process.stdout
   });
-const reverseInteger = () => {
+const reverseIntegers = () => {
     rl.question('Please enter a number: ', (input) => {
         const number = Number(input);
         
@@ -51,4 +51,4 @@ const reverseInteger = () => {
 });
     
 }
-reverseInteger()
+reverseIntegers()
