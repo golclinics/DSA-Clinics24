@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinnieNgina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a591d02d2d69f71c5a7533c5931a15c3b61bbbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66447236db257882df0c2d035f9a73274174b980")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinnieNgina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinnieNgina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
