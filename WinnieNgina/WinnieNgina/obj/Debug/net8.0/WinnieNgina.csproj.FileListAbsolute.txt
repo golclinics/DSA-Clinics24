@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\bin\Debug\net8.0\WinnieNgina.exe
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\bin\Debug\net8.0\WinnieNgina.deps.json
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\bin\Debug\net8.0\WinnieNgina.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\bin\Debug\net8.0\WinnieNgina.dll
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\bin\Debug\net8.0\WinnieNgina.pdb
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.sourcelink.json
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.dll
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\refint\WinnieNgina.dll
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.pdb
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\WinnieNgina.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\DSA\DSA-Clinics24\WinnieNgina\WinnieNgina\obj\Debug\net8.0\ref\WinnieNgina.dll
