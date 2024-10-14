@@ -11,8 +11,7 @@
 
 def reverseOrdering(num):
     num_str = str(num)
-    # if num_str[0] == '-':
-    #     return int('-' + num_str[:0:-1])
+
     if num < 0:
         return int("-" + str(num)[::-1][:-1])
     else:
