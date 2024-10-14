@@ -4,7 +4,7 @@ const rl = createInterface({
     input: process.stdin,
     output: process.stdout
   });
-const powerOfTwo = () => {
+const reverseInteger = () => {
     rl.question('Please enter a number: ', (input) => {
         const number = Number(input);
         
@@ -51,4 +51,4 @@ const powerOfTwo = () => {
 });
     
 }
-powerOfTwo()
+reverseInteger()
