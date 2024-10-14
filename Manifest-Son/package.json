@@ -1,0 +1,13 @@
+{
+  "name": "manifest-son",
+  "version": "1.0.0",
+  "main": "count_zeros.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node count_zeros.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
