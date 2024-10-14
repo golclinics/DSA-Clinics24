@@ -13,8 +13,7 @@ const powerOfTwo = () => {
         } else {
         const stringifiedInput = number.toFixed(0)
 
-    console.log(stringifiedInput)
-
+    
     const inputLength = stringifiedInput.length
 
     const reversedString = []
@@ -23,7 +22,7 @@ const powerOfTwo = () => {
 
 
     if(inputLength == 1) {
-        console.log(stringifiedInput) 
+         
 
     } else {
         while(counter > 0) {
@@ -33,7 +32,7 @@ const powerOfTwo = () => {
         }
           counter -= 1
         }
-        console.log(reversedString)    
+           
     }
 
     const reversedStringLength = reversedString.length
