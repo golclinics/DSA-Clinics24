@@ -1,19 +1,36 @@
-```
-Power of Two
-Write a program that takes an integer as input and returns true if the input is a power of two.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 
-Examples:
+<script>
+ /*Write a program that prints the numbers from 1 to 100. For multiples of 3, print Fizz; for
+multiples of 5, print Buzz; and for numbers that are multiples of both 3 and 5, print FizzBuzz.*/
 
-8=> returns true 
-6=> returns false
+/**/
+    const final=[];
+    let num = 1;
+    console.log(num);
+    while (num<=100){
+        if (num%3==0 && num%5==0){
+            final.push("FIZZBUZZ");
+        }
+        else if(num%3==0){
+            final.push("FIZZ");
+        }
+        else if (num%5==0){
+            final.push("BUZZ");
+        }
+        else{
+            final.push(num);
+        }
+    num++;
+    }
+    console.log(final);
 
-```;
-
-const powerOfTwo = (num) => {
-  if (num === 1) return true;
-  if (num % 2 !== 0) return false;
-  return powerOfTwo(num / 2);
-};
-
-console.log(powerOfTwo(8)); // true
-console.log(powerOfTwo(6)); // false
+</script>
+</body>
+</html>
