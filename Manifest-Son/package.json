@@ -1,0 +1,17 @@
+{
+  "name": "manifest-son",
+  "version": "1.0.0",
+  "main": "reverseInteger.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node reverseInteger.js",
+    "type": "commonjs"
+  },
+  "keywords": [],
+  "author": "Manifest-Son",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
