@@ -2,10 +2,10 @@
 public class Node {
 
     public Node next;
-    private int data;
+    public int nodeData;
 
-    public Node(int i) {
-      this.data = i;
+    public Node(int intData) {
+      this.nodeData = intData;
     }
 
 }
