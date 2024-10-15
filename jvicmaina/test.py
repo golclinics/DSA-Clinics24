@@ -5,7 +5,7 @@ class TestReverseInteger(unittest.TestCase):
     
     def test_positive(self):
         solution = Solution()
-        self.assertEqual(solution.reverse(123), 321)
+        self.assertEqual(solution.reverse(500), 5)
     
     def test_negative(self):
         solution = Solution()
