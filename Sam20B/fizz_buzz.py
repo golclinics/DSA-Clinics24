@@ -10,4 +10,3 @@ def number_list():
             print(num) # Print the number for any other condition
 
 number_list() # calls the function
-
