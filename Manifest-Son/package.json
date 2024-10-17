@@ -1,10 +1,10 @@
 {
   "name": "manifest-son",
   "version": "1.0.0",
-  "main": "reverseInteger.js",
+  "main": "reverseSingleList.js",
   "scripts": {
     "test": "jest",
-    "start": "node reverseInteger.js",
+    "start": "node reverseSingleList.js",
     "type": "commonjs"
   },
   "keywords": [],
