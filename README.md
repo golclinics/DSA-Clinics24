@@ -16,4 +16,12 @@
 
 
 ### ❓ Any questions?
-Open an issue 👉 [here](https://github.com/golclinics/DSA-Clinics24/issues/new)
+
+### DSA Clinics 
+
+Week 1 - Linked Lists -Date 15/10/2024 Time: 7:00PM - 8:30PM - Thursday - 17/10/2024(Office hours) 
+Week 2: Stacks and Queues II -  Date 22/10/2024 Time: 7:00PM - 8:30PM - Thursday - 24/10/2024 (Office hour)
+Week 3: Dictionaries/Hashmaps and Sets/Hashsets – Date 29/10/2024 Time: 7:00PM - 8:30PM -  Thursday - 31/10/2024  (Office hour)
+Week 4:  Recursion and Sorting – Date 5/11/2024 Time: 7:00PM - 8:30PM -  Thursday - 7/11/2024  (Office hour)
+Week 5:  Trees – Date 12/11/2024 Time: 7:00PM - 8:30PM -  Thursday - 14/11/2024  (Office hour)
+Week 6:  Graphs – Date 1/911/2024 Time: 7:00PM - 8:30PM -  Thursday - 21/11/2024  (Office hour)
