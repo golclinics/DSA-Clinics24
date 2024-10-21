@@ -1,8 +1,6 @@
 package main
 
-
-import 	"strconv"
-
+import "strconv"
 
 func ReverseInteger(num int) (int, error) {
 	// Check if number is negative

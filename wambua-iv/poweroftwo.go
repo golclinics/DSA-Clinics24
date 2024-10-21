@@ -9,4 +9,3 @@ func PowerOfTwo(n int) {
 	}
 	fmt.Println((n & (n - 1)) == 0)
 }
-
