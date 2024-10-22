@@ -1,0 +1,52 @@
+<!--Reversing a linked list-->
+<Script>
+    class Node {
+        //constructor
+        constructor(newData) {
+            this.data = newData;
+            this.next = null;
+        }
+    }
+
+    function reverseList(head) {
+        //initializing 3 pointers
+        let curr = head;
+        let prev = curr;
+        let next;
+
+        //traverse all the nodes of linked list
+        while (curr !== null) {
+            //store next
+            next = curr.next;
+
+            //Reverse current node's next pointer
+            curr.next = prev;
+
+            //move pointers one position ahead
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+
+    function printList(node) {
+        while (node !== null) {
+            console.log(" " + node.data);
+            node = node.next;            
+        }
+        console.log();
+    }
+    //Create a hard-coded linked list:
+    let head = new Node(1);
+    head.next = new Node(2);
+    head.next.next = new Node(3);
+    head.next.next.next = new Node(4);
+    head.next.next.next.next = new Node(5);
+
+    console.log("Given Linked List:");
+    printList(head);
+
+    head = reverseList(head);
+    console.log("Reversed Linked List:");
+    printList(head);
+</Script>
