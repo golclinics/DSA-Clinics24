@@ -1,13 +1,13 @@
-```
-Power of Two
-Write a program that takes an integer as input and returns true if the input is a power of two.
+// ```
+// Power of Two
+// Write a program that takes an integer as input and returns true if the input is a power of two.
 
-Examples:
+// Examples:
 
-8=> returns true 
-6=> returns false
+// 8=> returns true 
+// 6=> returns false
 
-```;
+// ```;
 
 const powerOfTwo = (num) => {
   if (num === 1) return true;
@@ -17,3 +17,19 @@ const powerOfTwo = (num) => {
 
 console.log(powerOfTwo(8)); // true
 console.log(powerOfTwo(6)); // false
+
+// FizzBuzz
+function fizzBuzz(){
+  for(let i= 1; i<= 100; i++){
+    if(i % 3 === 1 && i % 5 === 0){
+      console.log("FizzBuzz")
+    }else if(i % 3 == 0){
+      console.log("Fizz")
+    } else if(i % 5 == 0){
+      console.log("Buzz")
+    }
+
+  }
+}
+
+fizzBuzz();
