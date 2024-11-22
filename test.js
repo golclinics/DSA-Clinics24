@@ -1,19 +1,22 @@
-```
-Power of Two
-Write a program that takes an integer as input and returns true if the input is a power of two.
+const isPowerOfTwo = require('../DSA-Clinics24/ItotiaHarrison/power_of_two');
 
-Examples:
+test('8 should be a power of two', () => {
+    expect(isPowerOfTwo(8)).toBe(true);
+});
 
-8=> returns true 
-6=> returns false
+test('6 should not be a power of two', () => {
+    expect(isPowerOfTwo(6)).toBe(false);
+});
 
-```;
+test('1 should be a power of two', () => {
+    expect(isPowerOfTwo(1)).toBe(true);
+});
 
-const powerOfTwo = (num) => {
-  if (num === 1) return true;
-  if (num % 2 !== 0) return false;
-  return powerOfTwo(num / 2);
-};
+test('0 should not be a power of two', () => {
+    expect(isPowerOfTwo(0)).toBe(false);
+});
 
-console.log(powerOfTwo(8)); // true
-console.log(powerOfTwo(6)); // false
+test('Negative numbers should not be powers of two', () => {
+    expect(isPowerOfTwo(-2)).toBe(false);
+    expect(isPowerOfTwo(-16)).toBe(false);
+});
