@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            class PriorityQueue {
+    constructor() {
+        this.tasks = [];
+    }
+
+    // Add a task with its priority
+    enqueue(task, priority) {
+        this.tasks.push({ task, priority });
+    }
+
+    // Remove and return the task with the highest priority (lowest priority value)
+    dequeue() {
+        if (this.isEmpty()) {
+            return null;
+        }
+        // Sort tasks by priority (ascending order)
+        this.tasks.sort((a, b) => a.priority - b.priority);
+        return this.tasks.shift(); // Remove and return the task with the highest priority
+    }
+
+    // Check if the queue is empty
+    isEmpty() {
+        return this.tasks.length === 0;
+    }
+
+    // Peek at the task with the highest priority without removing it
+    peek() {
+        if (this.isEmpty()) {
+            return null;
+        }
+        this.tasks.sort((a, b) => a.priority - b.priority);
+        return this.tasks[0];
+    }
+}
+
+// Example Usage
+const pq = new PriorityQueue();
+pq.enqueue("task1", 2);
+pq.enqueue("task2", 1);
+pq.enqueue("task3", 3);
+
+while (!pq.isEmpty()) {
+    console.log(pq.dequeue().task);
+}
+
+        </script>
+    </body>
+</html>
